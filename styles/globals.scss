@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-screen w-screen;
+}
+
+#__next {
+  @apply w-screen h-screen;
+
+  > div {
+    @apply h-screen w-screen;
+  }
+}
